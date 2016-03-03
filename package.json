@@ -1,0 +1,49 @@
+{
+  "name": "pimatic-esp-easy",
+  "description": "Support for the ESPEasy (http://www.esp8266.nu)",
+  "author_name": "Marek Kail",
+  "author_url": "https://github.com/wutu",
+  "npmUser": "wutu",
+  "main": "esp-easy",
+  "files": [
+    "esp-easy.coffee",
+    "README.md",
+    "esp-easy-config-schema.coffee",
+    "device-config-schema.coffee"
+  ],
+  "version": "0.8.0",
+  "homepage": "http://github.com/wutu/pimatic-esp-easy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wutu/pimatic-esp-easy.git"
+  },
+  "configSchema": "esp-easy-config-schema.coffee",
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "bugs": {
+    "url": "https://github.com/wutu/pimatic-esp-easy/issues"
+  },
+  "keywords": [
+    "pimatic",
+    "esp-easy",
+    "ESPEasy"
+  ],
+  "license": "GPL-2.0",
+  "_npmVersion": "2.1.5",
+  "_nodeVersion": "0.10.24",
+  "_npmUser": {
+    "name": "wutu",
+    "email": "reg@kail.cz"
+  },
+  "maintainers": [
+    {
+      "name": "wutu",
+      "url": "https://github.com/wutu"
+    }
+  ]
+}
