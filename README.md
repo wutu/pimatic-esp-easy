@@ -1,1 +1,1 @@
-Support for Switch and Dimmer actuator over http commands.
+Support for Dimmer actuator over http commands.
